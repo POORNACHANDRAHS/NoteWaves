@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>♫ NoteWaves ♫</title>
+    <style>*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .body{
+      font-family: 'Poppins', sans-serif;
+    }
+    .navbar{
+      
+      display: flex;
+      align-items: center;
+      padding: 20px;
+    }
+    
+    
+    nav{
+      flex: 1;
+      text-align: right;
+    }
+    nav ul{
+      display: inline;
+      list-style-type:none;
+    }
+    nav ul li{
+      display: inline;
+      padding-right: 30px;
+    }
+    nav img{
+     
+    }
+    .Cart{
+      margin: auto;
+      
+      size-adjust: auto;
+      display: flex;
+      align-items: center;
+      
+      
+    }
+    .Cart img{
+      size: 60px;
+      margin-top: auto;
+      opacity:1 ;
+      mix-blend-mode: inherit;
+       
+    }
+    
+    a {
+      text-decoration: none;
+      color: cadetblue;
+    }
+    
+    p{
+      color: skyblue;
+    }
+    
+    .container{
+      padding-left: 20px;
+      padding-right: 20px;
+      max-width: 1500px;
+      margin: auto;
+    }
+    .row{
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    
+    .name{
+      flex-basis: 50%;
+      min-width: 300px;
+    }
+    
+    .name img{
+      max-width: 100%;
+      padding: 50px 0;
+    }
+    .name h1{
+      padding-top: 50px;
+      padding-bottom: 60px;
+    }
+    
+    .name p{
+      padding-bottom: 50px;
+    }
+    
+    .btn{
+      display: inline-block;
+      background: #ff523b;
+      color: white;
+      padding: 30px 10px;
+      border-radius: 30px;
+      margin: 8px 30px;
+      transition:background 0.5s;
+    }
+    .btn:hover{
+     background: black;
+    }
+    
+    .head{
+      background: radial-gradient(aquamarine,antiquewhite);
+    }
+    
+    
+    .fc{
+      margin: 70px 0;
+     
+    }
+    
+    .col-3{
+      flex-basis: 30%;
+      min-width: 250px;
+      margin-bottom: 30px;
+    }
+    .col-3 img{
+      width: 100%;
+    }
+    
+    .small container{
+      max-width: 1080px;
+      margin: auto;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    
+    .col-4{
+      flex-basis: 25%;
+      padding: 10px;
+      min-width: 200px;
+      margin-bottom: 50px;
+      transition: 0.4s;
+    }
+    
+    .col-4 img{
+      width: 100%;
+    }
+    .title{
+      text-align: center;
+      margin:  0  auto 80px;
+      position: relative;
+      line-height: 60px;
+      color: aquamarine;
+    }
+    
+    .title::after{
+      content: '';
+      background: #f2ff3bac;
+      width: 80px;
+      height: 5px;
+      border-radius: 5px;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    
+    }
+    
+    .h4{
+      color: antiquewhite;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .col-4 p{
+     font-size: medium;
+    
+    }
+    
+    .rating .fa{
+      color: #ff523b;
+    }
+    
+    .col-4:hover{
+      transform: translateY(-15px);
+    }
+    
+    
+    .top{
+      background-color: white;
+      max: width 1500px;
+      background: transparent;
+      
+      
+    }
+    .top ul{
+      display: inline;
+    }
+    .top ul li{
+      display: inline;
+      
+    }
+    
+    .page{
+      background: radial-gradient(#3b65ff85,#3bff6c8e);
+      border-radius: 20px;
+      width: max-content;
+      margin: 200px auto;
+    }
+    
+    li:hover{
+      background-color:bisque ;
+       border-radius: 10px;
+       border-bottom-right-radius: 0px;
+       border-right: 0px;
+       
+    }
+    li:active{
+     background-color: #ff523b;
+     box-shadow: 10px 0 10px #f2ff3bac;
+    }
+    form{
+      align-items: center;
+      background: rgba(30, 10, 16, 0.3);
+    }
+    
+    .full{
+      background: green;
+      width: auto;
+    }
+    
+    .Login{
+      font-family:sans-serif;
+      padding: 20px 40px ;
+    }
+    .name{
+      padding: auto;
+    }
+    .name img{
+      margin-left: 300px;
+    }
+    </style>
+    <link rel="stylesheet" href="/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,100;1,200;1,300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+          
+   
+</head>
+<body>
+<div class="head">
+
+
+    <div class="container">
+      <div class="top">
+      <div class="navbar">
+       
+        <div class="logo">
+          <img src="https://clipartspub.com/images/musical-instruments-clipart-violin-3.png" width="80px" height="80px">
+         </div>
+         <nav>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="Products.html">Products</a></li>
+            <li><a href="Order.html">Order Details</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="null.html">Login/SignUP</a></li>
+            </ul>
+         </nav>
+         <div class="Cart">
+         <a href="Cart.html"><img src="https://www.pngarts.com/files/3/Ecommerce-Shopping-Cart-Transparent-Image.png" height="40px" width="40px"></a>
+        </div></div></div>
+            
+            <div class="row">
+              <div class="name"><pre>
+              <h1>"Your Premier Destination for Musical Instruments!"</h1></pre>
+              <p style="font-size: large;color:rgba(28, 177, 110, 0.783);">"Discover harmony at our online store, where melody meets choice. Explore a symphony of musical instruments for sale, catering to every player's passion and skill"</p>
+              <a href="Products.html" class="btn">Experience Now &#8594;</a>
+              </div>
+              <div class="name">
+                <img src="https://www.pngarts.com/files/9/Sitar-Instrument-Transparent-Background-PNG-394x279.png">
+
+              </div>
+            </div>
+    
+    
+    
+    
+          </div></div>
+
+
+          <!-- Featured Category -->
+
+
+         <div class="fc">
+          <h2 class="title">Featured Category</h2>
+          <div class="small container">
+          <div class="row">
+            <div class="col-3">
+             <a href="Cart.html"> <img src="https://www.yatharthgeeta.com/wp-content/uploads/2020/04/394-1-760x456.png" ></a>
+            </div>
+            <div class="col-3">
+              <a href="Cart.html"><img src="https://www.freeiconspng.com/uploads/guitar-png-transparent-background-26.png"></a>
+            </div>
+            <div class="col-3">
+            <a href="Cart.html"><img src="https://purepng.com/public/uploads/large/purepng.com-drums-kitdrummusicinstrumentsmetallicdrums-kit-1421526504253ljr5o.png"></a>
+            </div>
+          </div></div>
+         </div>  
+
+
+         <!-- Featured  products -->
+
+         <div class="small container">
+         
+          <h2 class="title">Featured Products</h2>
+          <div class="row">
+          <div class="col-4">
+           <a href="Products.html"> <img src="https://www.pngall.com/wp-content/uploads/4/Gold-Trumpet-PNG-Free-Image.png"></a>
+            <h4>Trumpet</h4>
+            <div class="rating">
+              <i class="fa fa-star" ></i>
+              <i class="fa fa-star" ></i>
+              <i class="fa fa-star" ></i>
+              <i class="fa fa-star" ></i>
+              <i class="fa fa-star-o"></i>
+             </div>
+            <p>$3.00</p>
+
+        </div>
+        <div class="col-4">
+         <a href="Cart.html"> <img src="https://t3.ftcdn.net/jpg/06/24/01/08/360_F_624010820_GGHVtROoSpSDhhBWw2HCy1OUKO0t6b8J.jpg"></a>
+          <h4>Piano</h4>
+         <div class="rating">
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-o"></i>
+           </div>
+          <p>$10.00</p>
+
+      </div>
+      <div class="col-4">
+        <a href="Cart.html"> <img src="https://th.bing.com/th/id/OIP.FKG-aTJ7NhvgLaXJNdSGbwHaHa?pid=ImgDet&rs=1"></a>
+        <h4>Violin</h4>
+        <div class="rating">
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star-o"></i>
+         </div>
+        <p>$7.00</p>
+
+    </div>
+    <div class="col-4">
+      <a href="Cart.html"><img src="https://freepngimg.com/thumb/tabla/3-2-tabla-transparent.png"></a>
+      <h4>Tabala</h4>
+      <div class="rating">
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star-o"></i>
+       </div>
+      <p>$5.00</p>
+
+  </div><h2 class="title">LatestProducts</h2>
+  
+
+  <div class="col-4">
+    <a href="Cart.html"><img src="https://rukminim1.flixcart.com/image/832/832/jiqb8nk0/damaru/x/h/w/damaru-indian-folk-percussion-sg-musical-original-imaetehqxxpfk5yn.jpeg?q=70"></a>
+    <h4>Damaru</h4>
+    <div class="rating">
+      <i class="fa fa-star" ></i>
+      <i class="fa fa-star" ></i>
+      <i class="fa fa-star" ></i>
+      <i class="fa fa-star" ></i>
+      <i class="fa fa-star-o"></i>
+     </div>
+    <p>$4.00</p>
+
+    
+
+</div>
+
+<div class="col-4">
+  <a href="Cart.html"><img src="https://icons.iconarchive.com/icons/icons-land/musical/512/Cymbals-icon.png"></a>
+  <h4>Cymbals</h4>
+  <div class="rating">
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star-o"></i>
+   </div>
+  <p>$10.00</p>
+
+</div>
+<div class="col-4">
+  <a href="Cart.html"><img src="https://www.gonbops.com/wp-content/uploads/2016/07/Fiesta-Congas-DSC06440-1.png"></a>
+  <h4>Conga</h4>
+  <div class="rating">
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star-o"></i>
+   </div>
+  <p>$3.00</p>
+
+</div>
+<div class="col-4">
+  <a href="Cart.html"> <img src="https://www.pngplay.com/wp-content/uploads/12/Concertina-Accordion-Transparent-Background.png"></a>
+  <h4>Accordion</h4>
+  <div class="rating">
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star-o"></i>
+   </div>
+  <p>$5.00</p>
+
+</div>
+<div class="col-4">
+  <a href="Cart.html"><img src="https://clipground.com/images/clarinet-png-2.png"></a>
+  <h4>Clarinet</h4>
+  <div class="rating">
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star-o"></i>
+   </div>
+  <p>$6.00</p>
+
+</div>
+<div class="col-4">
+  <a href="Cart.html"><img src="https://th.bing.com/th/id/R.a7bcaee2580e8476ad563578660da5a7?rik=XxqXXTwkdWizQQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fmic-transparent-background%2fmic-transparent-background-20.png&ehk=Fu275Mezs5L8%2bIph8r1T1VsnGe7tA2ttQRjaIGf0dJY%3d&risl=&pid=ImgRaw&r=0"height="500px"></a>
+  <h4>Microphone</h4>
+  <div class="rating">
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star-o"></i>
+   </div>
+  <p>$7.00</p>
+
+</div>
+<div class="col-4">
+  <a href="Cart.html"><img src="https://th.bing.com/th/id/R.bc3920f875c2d61932a8ec98b706753c?rik=AlpiquzSnzqTIA&riu=http%3a%2f%2fwww.sarvasree.net%2fwp-content%2fuploads%2f2021%2f01%2fGhatam_3-291x300-1.png&ehk=GSKcsMd4vvtTnCSElxKDTnaS%2bu5kDrGV8Km%2b%2bN2vUPA%3d&risl=&pid=ImgRaw&r=0"></a>
+  <h4>Ghatam</h4>
+  <div class="rating">
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star-o"></i>
+   </div>
+  <p>$4.00</p>
+
+</div>
+      </div>
+      
+
+         </div>
+</body>
+</html>
